@@ -6,8 +6,8 @@
     "format": "prettier --write .",
     "test": "npm run lint",
     "lint": "npm-run-all lint:*",
-    "lint:prettier": "prettier --check .",
-    "lint:stylelint": "stylelint 'src/**/*.css'"
+    "lint:style": "prettier --check .",
+    "lint:css": "stylelint 'src/**/*.css'"
   },
   "dependencies": {
     "parcel": "2.0.0-beta.2",
