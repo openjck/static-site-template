@@ -8,7 +8,7 @@
     "lint": "npm-run-all lint:*",
     "lint:style": "prettier --check .",
     "lint:js": "eslint --report-unused-disable-directives --ext .js --ext .json .",
-    "lint:css": "stylelint --report-needless-disables 'src/**/*.css'"
+    "lint:css": "stylelint --report-needless-disables --allow-empty-input 'src/**/*.css'"
   },
   "dependencies": {
     "parcel": "2.0.0-beta.2",
