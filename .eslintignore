@@ -1,0 +1,6 @@
+# Distributed by Google, not worth changing
+src/media/js/ga.js
+
+# Inverse matches (do lint these)
+!.eslintrc.js
+!.stylelintrc.js
