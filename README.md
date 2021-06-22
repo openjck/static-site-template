@@ -8,7 +8,7 @@ TypeScript, ESLint, Stylelint, Prettier, and Google Analytics.
 template more portable to other hosts.)
 
 This template is mainly meant for my own use, but it may also serve as a nice
-baseline for your project. If you do not intend to use Netlify or Google
+foundation for your project. If you do not intend to use Netlify or Google
 Analytics (or TypeScript or ESLint or whatever) you can easily remove support
 for those tools.
 
