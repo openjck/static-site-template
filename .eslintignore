@@ -4,7 +4,8 @@
 # Distributed by Google, not worth changing
 /src/media/js/ga.js
 
-# Inverse matches (do lint these)
+# Inverse matches (DO lint these)
 !.eslintrc.js
 !.posthtmlrc.js
+!.prettierrc.js
 !.stylelintrc.js
