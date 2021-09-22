@@ -1,9 +1,6 @@
 # Parcel
 /dist/
 
-# Distributed by Google, not worth changing
-/src/media/js/ga.js
-
 # Inverse matches (DO lint these)
 !.eslintrc.js
 !.posthtmlrc.js
