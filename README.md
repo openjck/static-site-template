@@ -1,8 +1,13 @@
 # static-site-template
 
 static-site-template is a template for static websites which are deployed to
-Netlify. It uses Parcel to optimize assets and includes support for TypeScript,
-ESLint, Stylelint, Prettier, and Google Analytics.
+[Netlify](https://www.netlify.com/). It uses
+[Parcel](https://github.com/parcel-bundler/parcel) to optimize assets and
+includes support for [TypeScript](https://github.com/microsoft/TypeScript),
+[ESLint](https://github.com/eslint/eslint),
+[Stylelint](https://github.com/stylelint/stylelint),
+[Prettier](https://github.com/prettier/prettier), and
+[Google Analytics](https://marketingplatform.google.com/about/analytics/).
 
 (Netlify can optimize assets on its own, but using Parcel makes this template
 more portable to other hosts.)
