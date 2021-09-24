@@ -7,7 +7,8 @@ includes support for [TypeScript](https://github.com/microsoft/TypeScript),
 [ESLint](https://github.com/eslint/eslint),
 [Stylelint](https://github.com/stylelint/stylelint),
 [Prettier](https://github.com/prettier/prettier), and
-[Google Analytics](https://marketingplatform.google.com/about/analytics/).
+[Google Analytics](https://marketingplatform.google.com/about/analytics/). I
+haven't found an HTML linter that I like, but I welcome suggestions.
 
 (Netlify can optimize assets on its own, but using Parcel makes this template
 more portable to other hosts.)
