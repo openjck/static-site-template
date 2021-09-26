@@ -1,8 +1,8 @@
-# Parcel
+# Generated
 /dist/
 
 # Inverse matches (DO lint these)
-!.eslintrc.js
-!.posthtmlrc.js
-!.prettierrc.js
-!.stylelintrc.js
+!/.eslintrc.js
+!/.posthtmlrc.js
+!/.prettierrc.js
+!/.stylelintrc.js

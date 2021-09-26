@@ -1,6 +1,4 @@
-# Node
-package-lock.json
-
-# Parcel
+# Generated
 /dist/
-.parcel-cache/
+/package-lock.json
+/.parcel-cache/
