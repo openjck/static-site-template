@@ -7,8 +7,8 @@
     "test": "npm run lint",
     "lint": "npm-run-all lint:*",
     "lint:format": "prettier --check .",
-    "lint:js": "eslint --report-unused-disable-directives --ext .js --ext .json .",
-    "lint:css": "stylelint --report-needless-disables --allow-empty-input 'src/**/*.css'"
+    "lint:js": "eslint --report-unused-disable-directives --max-warnings=0 --ext .js --ext .json .",
+    "lint:css": "stylelint --report-needless-disables --allow-empty-input --max-warnings=0 'src/**/*.css'"
   },
   "dependencies": {
     "parcel": "2.3.2",
