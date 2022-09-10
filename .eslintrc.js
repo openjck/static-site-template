@@ -51,11 +51,5 @@ module.exports = {
         ],
       },
     },
-
-    // JSON
-    {
-      files: ["*.json"],
-      extends: ["plugin:json/recommended"],
-    },
   ],
 };
