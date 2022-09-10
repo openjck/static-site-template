@@ -5,10 +5,11 @@ module.exports = {
   },
   extends: ["airbnb-base", "prettier"],
   ignorePatterns: [
-    // Generated
-    "/dist/",
+    // Ignore generated files.
+    "dist/",
 
-    // Inverse matches (DO lint these)
+    // Use inverse matching (!) to NOT ignore certain files. By default, ESLint
+    // ignores hidden files, but some hidden files can and should be linted.
     "!/.eslintrc.js",
     "!/.posthtmlrc.js",
     "!/.prettierrc.js",
@@ -18,9 +19,9 @@ module.exports = {
   parserOptions: {
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "json"],
+  plugins: ["@typescript-eslint"],
   rules: {
-    // Keep imports organized
+    // Keep imports as well-organized as possible.
     "import/order": [
       "error",
       {
@@ -35,13 +36,13 @@ module.exports = {
           "object",
           "type",
         ],
-        "newlines-between": "always",
+        "newlines-between": "always-and-inside-groups",
         warnOnUnassignedImports: true,
       },
     ],
   },
   overrides: [
-    // Allow devDependencies to be imported in certain configuration files
+    // Allow devDependencies to be imported in certain configuration files.
     {
       files: [".posthtmlrc.js", "vite.{js,ts}"],
       rules: {
