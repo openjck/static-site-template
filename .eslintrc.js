@@ -10,10 +10,10 @@ module.exports = {
 
     // Use inverse matching (!) to NOT ignore certain files. By default, ESLint
     // ignores hidden files, but some hidden files can and should be linted.
-    "!/.eslintrc.js",
-    "!/.posthtmlrc.js",
-    "!/.prettierrc.js",
-    "!/.stylelintrc.js",
+    "!.eslintrc.js",
+    "!.posthtmlrc.js",
+    "!.prettierrc.js",
+    "!.stylelintrc.js",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
