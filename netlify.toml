@@ -4,13 +4,8 @@
   publish = 'dist'
 
   [build.environment]
-    # Parcel requires at least Node 12, but we might as well go higher. Version
-    # 14 is the latest LTS as of 2021-09-14.
-    NODE_VERSION = '14'
-
-    # Manually bump the Ruby version to work around this bug:
-    # https://github.com/netlify/build-image/issues/599
-    RUBY_VERSION = '2.7.2'
+    # Use the latest Node LTS.
+    NODE_VERSION = 'lts/*'
 
 [[headers]]
 
