@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "parcel serve src/index.html src/404.html",
+    "dev": "GA_TRACKING_ID=123 parcel serve src/index.html src/404.html",
     "build": "parcel build src/index.html src/404.html",
     "format": "prettier --write .",
     "test": "npm run lint",
