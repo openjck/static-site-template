@@ -3,10 +3,6 @@
   command = 'npm run build'
   publish = 'dist'
 
-  [build.environment]
-    # Use the latest Node LTS.
-    NODE_VERSION = 'lts/*'
-
 [[headers]]
 
   for = '/*'
