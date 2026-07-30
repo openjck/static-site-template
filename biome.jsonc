@@ -1,4 +1,4 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.5.6/schema.json",
-  "extends": ["@openjck/biome-config"]
+  "extends": ["@openjck/biome-config"],
 }

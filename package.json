@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.6",
-    "@openjck/biome-config": "^1.0.0",
+    "@openjck/biome-config": "^2.0.0",
     "dotenv": "^17.4.2",
     "npm-run-all2": "^9.0.3"
   }
