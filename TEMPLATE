@@ -1,4 +1,4 @@
-project_source_template: https://github.com/openjck/static-site-template
+source_template: https://github.com/openjck/static-site-template
 
 This file doesn't do anything on its own. It simply keeps track of the template
 that this project is based on, and it provides an easy way of searching for that
