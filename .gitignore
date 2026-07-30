@@ -1,4 +1,4 @@
-# Generated
+# Ignore generated files.
 /dist/
 /node_modules/
 /.parcel-cache/

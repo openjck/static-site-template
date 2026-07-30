@@ -7,7 +7,7 @@ module.exports = {
   plugins: {
     "posthtml-expressions": {
       locals: {
-        GA_TRACKING_ID: process.env.GA_TRACKING_ID,
+        UMAMI_WEBSITE_ID: process.env.UMAMI_WEBSITE_ID,
       },
     },
   },
