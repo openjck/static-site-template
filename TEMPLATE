@@ -1,3 +1,6 @@
-This project is based on the following template:
+project_source_template: https://github.com/openjck/static-site-template
 
-https://github.com/openjck/static-site-template
+This file doesn't do anything on its own. It simply keeps track of the template
+that this project is based on, and it provides an easy way of searching for that
+information, so that this project can more easily be updated when the template
+is updated.
