@@ -12,7 +12,7 @@
     # This list is based on something a user shared on GitHub:
     #
     # https://github.com/umami-software/umami/discussions/2719#discussioncomment-9459641
-    Content-Security-Policy = "default-src 'self'; script-src 'self' cloud.umami.is; connect-src 'self' gateway.umami.is eu.umami.is api-gateway-eu.umami.dev api-gateway.umami.dev; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'self'; base-uri 'none'; connect-src 'self' gateway.umami.is eu.umami.is api-gateway-eu.umami.dev api-gateway.umami.dev; form-action 'none'; frame-ancestors 'none'; img-src 'self'; object-src 'none'; script-src 'self' cloud.umami.is; style-src 'self';"
 
     Strict-Transport-Security = 'max-age=63072000; preload'
     X-Content-Type-Options = 'nosniff'
