@@ -8,9 +8,13 @@
   for = '/*'
 
   [headers.values]
+    # Umami does not document the domains that must be allowed in connect-src.
+    # This list is based on something a user shared on GitHub:
+    #
+    # https://github.com/umami-software/umami/discussions/2719#discussioncomment-9459641
+    Content-Security-Policy = "default-src 'self'; script-src 'self' cloud.umami.is; connect-src 'self' gateway.umami.is eu.umami.is api-gateway-eu.umami.dev api-gateway.umami.dev; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
 
     Strict-Transport-Security = 'max-age=63072000; preload'
-    Content-Security-Policy = "default-src 'self'; script-src 'unsafe-inline' 'self'; connect-src 'self'; img-src 'self'; object-src 'none'"
     X-Content-Type-Options = 'nosniff'
     X-Frame-Options = 'DENY'
     X-XSS-Protection = '1; mode=block'
