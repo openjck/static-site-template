@@ -1,4 +1,4 @@
-// This file is based on the file that Vite generates when "npx create
+// This file is based on the file that Vite generates when "npm create
 // vite@latest" is run and TypeScript support is chosen.
 {
   "compilerOptions": {
@@ -22,5 +22,5 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["**/*.ts"]
 }
