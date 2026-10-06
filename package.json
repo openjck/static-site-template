@@ -1,15 +1,21 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "UMAMI_WEBSITE_ID=123 parcel serve src/index.html src/404.html",
-    "build": "parcel build src/index.html src/404.html",
-    "check": "biome check",
-    "check:fix": "biome check --write"
+    "check": "npm-run-all check:*",
+    "check:biome": "biome check",
+    "check:tsc": "tsc",
+    "fix": "biome check --write",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.6",
+    "@biomejs/biome": "^2.5.15",
     "@openjck/biome-config": "^2.0.0",
-    "parcel": "^2.16.4",
-    "posthtml-expressions": "^1.11.4"
+    "@types/node": "^26.6.4",
+    "npm-run-all2": "^9.0.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
   }
 }

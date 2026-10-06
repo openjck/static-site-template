@@ -3,12 +3,12 @@
 static-site-template is the template I use for my own static websites, which are
 pretty simple. I deploy my static sites to [Netlify](https://www.netlify.com/),
 so Netlify configuration is included. The template also uses
-[Parcel](https://parceljs.org/) to optimize assets and
+[Vite](https://vite.dev/) to build the site and optimize assets and
 [Biome](https://biomejs.dev/) to lint and format code. Support for [Umami
-analytics](https://umami.is/) is included.
+analytics](https://umami.is/) is also included.
 
-(Netlify can optimize assets on its own, but using Parcel makes this template
-more portable to other hosts.)
+(Netlify can optimize assets on its own, but using Vite makes this template more
+portable to other hosts.)
 
 ## Usage
 
